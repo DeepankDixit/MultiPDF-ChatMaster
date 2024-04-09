@@ -1,6 +1,6 @@
 # MultiPDF ChatMaster
 An LLM-based chatbot to assist you with multiple PDFs of your choice
-Access it here [MultiPDF ChatMaster URL](https://pdfchatting01.streamlit.app/)
+Access it here [MultiPDF ChatMaster URL](https://multipdf-chatmaster.streamlit.app/)
 
 ## App Architecture / Logic
 
