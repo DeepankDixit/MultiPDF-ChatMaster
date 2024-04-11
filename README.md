@@ -25,7 +25,7 @@ Here's how the app works to answer your questions:
 
 ## How to run it locally
 
-1. Run the `main.py` file from the project directly using `streamlit run app.py`
+1. Run the `app.py` file from the project directly using `streamlit run app.py`
 2. This will launch the app in your web browser
 3. You can load multiple PDFs and click on Process. 
 4. Once the processing is complete, you can ask questions in natural language about the PDFs
