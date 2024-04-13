@@ -25,7 +25,6 @@ css = '''
 }
 '''
 
-bot_template = '''
 <div class="chat-message bot">
     <div class="avatar">
         <img src="https://icons8.com/icon/q7wteb2_yVxu/bot">
