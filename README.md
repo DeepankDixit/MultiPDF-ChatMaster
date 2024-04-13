@@ -1,4 +1,3 @@
-![image](https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/ccb7ccf1-b1cb-4710-bd23-07118396cc65)# MultiPDF ChatMaster
 An LLM-based chatbot to assist you with multiple PDFs of your choice
 Access it here [MultiPDF ChatMaster URL](https://multipdf-chatmaster.streamlit.app/)
 
