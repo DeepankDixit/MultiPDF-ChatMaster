@@ -1,4 +1,4 @@
-An LLM-based chatbot to assist you with multiple PDFs of your choice.
+![image](https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/0a384560-89be-416d-bc33-b670b234b2fd)![image](https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/98750491-8651-4137-80b6-4cfa9a53af0b)An LLM-based chatbot to assist you with multiple PDFs of your choice.
 
 Access it here [MultiPDF ChatMaster URL](https://multipdf-chatmaster.streamlit.app/)
 
@@ -33,35 +33,37 @@ Here's how the app works to answer your questions:
 ## App walkthrough
 
 1. App UI
-<img width="1394" alt="image" src="https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/bab8193f-6e21-4bca-86a5-2e00afca29da">
+<img width="1299" alt="image" src="https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/a7b73530-ed4e-40ea-b1b7-c06b25e3b224">
 
-2. Upload the PDFs (supports multiple PDFs) with which you want to chat. I am using ISE 3.2 Installation Guide, and a completely different PDF about Cisco's acquisition of a company called Isovalent.
 
-[CISCO ACQUIRES ISOVALENT](https://nand-research.com/wp-content/uploads/2024/01/2024-01-18-Cisco-Isovalent-Acquisition.pdf), and [Cisco Identity Services Engine Installation Guide, Release 3.2](https://www.cisco.com/c/en/us/td/docs/security/ise/3-2/install_guide/b_ise_installationGuide32.pdf)
+2. Upload the PDFs (supports multiple PDFs) with which you want to chat. I am using ISE 3.2 CLI Reference Guide, and a completely different PDF about Cisco's acquisition of a company called Isovalent.
+
+[CISCO ACQUIRES ISOVALENT](https://nand-research.com/wp-content/uploads/2024/01/2024-01-18-Cisco-Isovalent-Acquisition.pdf), and [Cisco Identity Services Engine CLI Reference Guide](https://www.cisco.com/c/en/us/td/docs/security/ise/3-2/cli_guide/b_ise_CLI_Reference_Guide_32/b_ise_CLIReferenceGuide_32_chapter_01.html)
 
 Click on "Process".
 
-<img width="1393" alt="image" src="https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/ad328a25-04c6-413c-87e4-4d5614510217">
+<img width="1173" alt="image" src="https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/b971d22e-0f3c-4938-82f4-fd00e338d06e">
 
 Wait until Processing is complete. 
 
+<img width="1291" alt="image" src="https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/9456adcf-72ad-4845-8a67-362b30119258">
+
+Chatbot is now active.
+
 3. Enter your queries and engage in the conversation. Remember that the bot has memory and will remember the conversation exchanged during an entire session.
 
-e.g., "I got locked out of ISE because of attempting to login using an incorrect password. That was all I had. How can I fix this?"
+e.g., "I got locked out of ISE because of attempting to login using an incorrect password. How can I reset my password? For “admin” user"
 
-<img width="1038" alt="image" src="https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/75dfb00f-e69f-4113-b971-3e0721856c2d">
+<img width="1205" alt="image" src="https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/689e0836-9cd9-4b62-8927-ebf2c36d568f">
 
-"I am logged in the ISE cli, wanna verify the system health and config of the deployment"
+"What is this Isovalent acquisition all about? How does it help cisco. List in bullet points"
 
-<img width="1156" alt="image" src="https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/302daf61-a648-46db-9145-9959c732110a">
-
-"What is this acquisition all about? How does it help cisco. List in bullet points"
-
-<img width="1148" alt="image" src="https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/0858f102-6f98-4802-8c9c-c4e73707dc5b">
+<img width="1109" alt="image" src="https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/5f7936be-b834-4fd2-80d3-7accb97a2894">
 
 "At what valuation was the deal closed?" 
 
-<img width="966" alt="image" src="https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/143592b3-9e81-4823-afe4-ed25c27f9b78">
+<img width="986" alt="image" src="https://github.com/DeepankDixit/MultiPDF-ChatMaster/assets/22991058/bdd9a710-ea33-467b-9038-be9dae9ed1f2">
+
 (Note that the model didn't hallucinate and made up some information on the valuation of the company)
 
 
